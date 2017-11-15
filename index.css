@@ -1,0 +1,88 @@
+/*  blue: #3BB0C9
+	gray: #545C67
+	logo: https://raisely-themes.imgix.net/2.1.0/raisely/raisely.brand.white.png
+*/
+
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+body {
+	margin: 0 0;
+	font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+}
+
+#banner {
+	background-image: url("mountain2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%; 
+	height: 100%;
+}
+
+#intro {
+	color: white; 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15% 15%;
+}
+
+.question {
+	font-size: 1.5em; 
+	color: #3BB0C9; 
+	background-color: #545C67;
+	text-align: center;
+	padding: 3%;
+}
+
+.set {
+	display: flex;
+	justify-content: space-around;
+	background-color: #545C67;
+}
+
+
+.answer { 
+	padding: 2% 2%;
+	width: 35%;
+	color: white;
+	background-color: #3BB0C9;
+	opacity: .95;
+	border-radius: 25px;
+}
+
+#list {
+	display: flex; 
+	justify-content: space-around;
+	font-size: 1.25em; 
+	color: #3BB0C9; 
+	background-color: #545C67;
+	padding-bottom: 2%;
+
+}
+
+li {
+	margin-left: 25px;
+}
+
+img {
+	width: 300px;
+	height: 120%;
+	padding-top: 3%;
+}
+
